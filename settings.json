@@ -1,0 +1,166 @@
+{
+  //@@ Workbench
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": "single",
+  // "workbench.tips.enabled": false,
+  // "workbench.startupEditor": "none",
+  // "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.colorTheme": "React Theme",
+  "workbench.iconTheme": "symbols",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 15,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+
+  //@@ Editor
+  "editor.snippetSuggestions": "top",
+  "editor.minimap.enabled": false,
+  "editor.wordWrapColumn": 120,
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.minimap.maxColumn": 250,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.fontWeight": "400",
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.padding.top": 16,
+  "editor.cursorStyle": "block",
+  "editor.stickyScroll.enabled": false,
+  "editor.lineHeight": 32,
+  "editor.accessibilitySupport": "off",
+  // "editor.copyWithSyntaxHighlighting": false,
+  // "editor.emptySelectionClipboard": false,
+  // "editor.multiCursorModifier": "ctrlCmd",
+  // "editor.detectIndentation": false,
+  // "editor.lineNumbers": "off",
+  // "editor.guides.indentation": false,
+
+  //@@ Typography
+  "editor.fontFamily": "Geist Mono, JetBrains Mono, Fira Code",
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 30,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.env.windows": {},
+
+  // "diffEditor.ignoreTrimWhitespace": false,
+  // "window.newWindowDimensions": "inherit",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // @@ Prettier
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "prettier.tabWidth": 4,
+  "explorer.sortOrder": "type",
+  "files.autoSave": "afterDelay",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.wordWrap": "on",
+  "notebook.output.wordWrap": true,
+  "chat.editor.wordWrap": "on",
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+
+  //@@ Extra
+  "breadcrumbs.enabled": false,
+  "console-ninja.featureSet": "Community",
+  "vscode_custom_css.imports": [
+    "file:///C:/dev/custom-vscode.css"
+  ],
+  "material-ui-snippets.showNotesOnStartup": false,
+  "tailwindCSS.experimental.configFile": null,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#342828",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#292834",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#343428",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "@",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#283428",
+      "bold": false,
+      "italic": false
+    }
+  ]
+}
