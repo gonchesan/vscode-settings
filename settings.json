@@ -33,7 +33,7 @@
   "editor.padding.top": 16,
   "editor.cursorStyle": "block",
   "editor.stickyScroll.enabled": false,
-  "editor.lineHeight": 32,
+  "editor.lineHeight": 30,
   "editor.accessibilitySupport": "off",
   // "editor.copyWithSyntaxHighlighting": false,
   // "editor.emptySelectionClipboard": false,
