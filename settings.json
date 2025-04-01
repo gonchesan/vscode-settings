@@ -86,7 +86,6 @@
   "prettier.useEditorConfig": false,
   "prettier.tabWidth": 4,
   "explorer.sortOrder": "type",
-  "files.autoSave": "afterDelay",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
