@@ -1,8 +1,7 @@
 /* Code comment style */
 .mtk3 {
     font-family: 'Monaspace Radon', monospace !important;
-    font-style: italic !important;
-    color: #008c7d !important;
+    color: #5fa052 !important;
 }
 
 /* *:not() {
@@ -119,7 +118,7 @@
     /* padding: 10px !important; */
     background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
     backdrop-filter: blur(3px) !important;
-    border-radius: 16px !important;
+    border-radius: 8px !important;
     border: none !important;
     outline: 0px !important;
 }
@@ -185,7 +184,7 @@
     background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
     /* background: #3c3c50 !important; */
     backdrop-filter: blur(3px) !important;
-    border-radius: 20px !important;
+    border-radius: 12px !important;
     /* width: 50% !important; */
 }
 
@@ -211,7 +210,7 @@
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
-    border-radius: 12px !important;
+    border-radius: 8px !important;
     padding: 16px !important;
     border: none !important;
     /* background-color: rgba(34, 34, 34, .40) !important; */
@@ -233,9 +232,4 @@
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
     color: rgba(255, 255, 255, .3) !important;
-}
-
-/* Container that holds the VS Code home icon. */
-.editor-group-watermark {
-    max-width: none !important;
 }
